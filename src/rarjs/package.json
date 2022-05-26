@@ -1,0 +1,47 @@
+{
+  "_from": "rarjs",
+  "_id": "rarjs@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-q35oaU3jDAFKSOQxiboKZ/vlMO0=",
+  "_location": "/rarjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "rarjs",
+    "name": "rarjs",
+    "escapedName": "rarjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/rarjs/-/rarjs-0.0.2.tgz",
+  "_shasum": "ab7e68694de30c014a48e43189ba0a67fbe530ed",
+  "_spec": "rarjs",
+  "_where": "/Users/mrander/Test_app/my-app",
+  "author": {
+    "name": "43081j"
+  },
+  "browser": {
+    "fs": false
+  },
+  "bugs": {
+    "url": "https://github.com/43081j/rar.js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Pure-javascript RAR archive reader using AJAX, File API and local files.",
+  "homepage": "https://github.com/43081j/rar.js#readme",
+  "license": "MIT",
+  "main": "./dist/rar.js",
+  "name": "rarjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/43081j/rar.js.git"
+  },
+  "version": "0.0.2"
+}

@@ -1,0 +1,12 @@
+diff --git a/node_modules/react-scripts/config/webpack.config.js b/node_modules/react-scripts/config/webpack.config.js
+index e465d8e..4fff65c 100644
+--- a/node_modules/react-scripts/config/webpack.config.js
++++ b/node_modules/react-scripts/config/webpack.config.js
+@@ -111,6 +111,7 @@ module.exports = function (webpackEnv) {
+   // Omit trailing slash as %PUBLIC_URL%/xyz looks better than %PUBLIC_URL%xyz.
+   // Get environment variables to inject into our app.
+   const env = getClientEnvironment(paths.publicUrlOrPath.slice(0, -1));
++  node = { fs: 'empty' };
+ 
+   const shouldUseReactRefresh = env.raw.FAST_REFRESH;
+ 
